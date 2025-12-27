@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalu-Recipe Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="recipe-card">
+        <h1 class="recipe-title">Choclate Cake</h1>
+        <img src="cake.jpg" alt="Choclate Cake Image" class="recipe-image">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressbar">  </div>
+        </div>
+        <p class="progress-text">Preparation progress</p>
+
+<div class="recipe-info">
+        <p><strong>Preparation time:</strong>45 minutes</p>
+        <p><strong>Servings:</strong>4 people</p>
+       </div>
+
+       <div class="section">
+        <h2>Ingredients</h2>
+        <button class="toggle-btn" id="toggleIngredients">
+        Show Ingredients
+    </button>
+        
+        <ul class="ingredients hidden" id="ingredients">
+            <li>1 cup all-purpose flour</li>
+            <li>1/2 cup cocoa powder</li>
+            <li>1 cup sugar</li>
+            <li>2 eggs</li>
+            <li>1/2 cup butter</li>
+            <li>1 tsp baking powder</li>
+        </ul>
+       </div>
+       <div class="section">
+        <h2>Instructions</h2>
+        <button class="toggle-btn" id="toggleSteps">Show Preparation Steps</button>
+        <ol class="steps hidden" id="steps">
+            <li>Preheat the oven to 180 degree celcius</li>
+            <li>Mix flour,cocoa poeder and baking powder</li>
+            <li>Beat aggas and sugar until fluffy</li>
+            <li>Add melted butter and dry ingredients</li>
+            <li>Pour batter into a greased pan</li>
+            <li>Bake for 30-35 minutes</li>
+        </ol>
+       </div>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
